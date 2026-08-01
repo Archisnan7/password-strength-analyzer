@@ -1,0 +1,5 @@
+# No third-party dependencies.
+# This project only uses Python's standard library:
+# tkinter, secrets, string, math, re
+#
+# This file is kept for convention / tooling that expects it to exist.
