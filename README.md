@@ -3,8 +3,19 @@
 A desktop GUI app (built with Python's `tkinter`) that analyzes password strength in real time — checking entropy, common leaked passwords, sequential/repeated patterns, and reuse of personal info like your name or date of birth — then suggests stronger alternatives generated with a cryptographically secure RNG.
 
 ![Python](https://img.shields.io/badge/python-3.8%2B-blue)
-![License](https://img.shields.io/badge/license-MIT-green)
-![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20macOS%20%7C%20Linux-lightgrey)
+![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20Linux%20%7C%20macOS-blue)
+![License](https://img.shields.io/badge/License-MIT-green)
+![Version](https://img.shields.io/badge/version-v1.0.0-orange)
+![Tests](https://img.shields.io/badge/tests-passing-brightgreen)
+![Status](https://img.shields.io/badge/status-active-success)
+
+![GitHub stars](https://img.shields.io/github/stars/Archisnan7/password-strength-analyzer)
+
+![GitHub forks](https://img.shields.io/github/forks/Archisnan7/password-strength-analyzer)
+
+![GitHub issues](https://img.shields.io/github/issues/Archisnan7/password-strength-analyzer)
+![Last Commit](https://img.shields.io/github/last-commit/Archisnan7/password-strength-analyzer)
+![Repo Size](https://img.shields.io/github/repo-size/Archisnan7/password-strength-analyzer)
 
 ## Preview
 <img width="960" height="600" alt="Screenshot 2026-08-01 104546" src="https://github.com/user-attachments/assets/e6ba0edf-e0c9-44b9-a661-9734b13b591b" />
@@ -66,6 +77,20 @@ Each password starts at a base score and gains points for:
 | 5+    | Strong   |
 
 > **Note:** The common-password list and pattern list are small, static, offline demo lists. A production tool should check against a real breach dataset (e.g. the [HaveIBeenPwned k-anonymity API](https://haveibeenpwned.com/API/v3#PwnedPasswords)) instead.
+
+## 📊 Project Statistics
+
+| Metric | Value |
+|---------|------:|
+| Language | Python |
+| GUI Framework | Tkinter |
+| Python Files | 1 |
+| Modules | 8+ |
+| Unit Tests | 10 |
+| Supported Platforms | Windows, Linux, macOS |
+| License | MIT |
+| Current Version | v1.0.0 |
+| Status | Active Development |
 
 ## Architecture Diagram
 
