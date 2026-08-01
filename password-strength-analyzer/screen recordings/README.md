@@ -25,7 +25,7 @@ Clearing all written characters instantly.
 ### 🎲 Password Generator & Clipboard Copy
 Generating unique passwords, testing for faults, and copying to clipboard.
 
-<video src="https://github.com/user-attachments/assets/862c3d95-c974-49c8-0d93125a894e" controls="controls" width="100%">
+<video src="https://github.com/user-attachments/assets/0a2d5fdc-6598-4ec9-9e0e-24ee82a720ee" controls="controls" width="100%">
 </video>
 
 ---
