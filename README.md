@@ -67,6 +67,30 @@ Each password starts at a base score and gains points for:
 
 > **Note:** The common-password list and pattern list are small, static, offline demo lists. A production tool should check against a real breach dataset (e.g. the [HaveIBeenPwned k-anonymity API](https://haveibeenpwned.com/API/v3#PwnedPasswords)) instead.
 
+## Architecture Diagram
+
+```
+  User
+   │
+   ▼
+Tkinter GUI
+   │
+   ▼
+Password Analysis Engine
+   │
+   ├── Entropy
+   ├── Leaked Password Detection
+   ├── Sequential Pattern Detection
+   ├── Name Check
+   ├── DOB Check
+   │
+   ▼
+Strength Score
+   │
+   ▼
+Password Suggestion Generator
+```
+
 ## Project structure
 
 ```
@@ -97,6 +121,18 @@ python -m unittest discover tests
 - [ ] Localization / i18n for suggestion text
 - [ ] Configurable scoring weights
 - [ ] Package as a standalone executable (PyInstaller) for non-technical users
+
+## Limitations
+1. Use of local password list
+2. No online breach verifications
+3. Basic Strength Evaluation
+4. Limited Personal information detection
+5. Pattern detection is limited
+6. Password generator uses fixed length
+7. Entropy calculation is approximate
+8. No password storage
+9. Desktop only and offline based application
+10. No Multi authentication support
 
 ## Contributing
 
